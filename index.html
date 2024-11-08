@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Я - W1ndles. А вы?">
+	<meta name="keywords" content="Moln1kas, MixDev, Monako, W1ndles">
+	<meta name="author", content="Moln1kas, W1ndles">
+	<meta charset="UTF-8">
+	<title>W1ndles</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body class="page__alternative">
+	<header class="main__header">
+		<h1 class="main__header__title">W1ndles</h1>
+		<nav class="main__navbar">
+			<ul class="main__navbar__content">
+				<li class="main__navbar__content__link"><a href="moln1kas.html">Moln1kas</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<section class="section">
+			<header class="section__header">
+				<h2>О нем</h2>
+			</header>
+			<p class="section__info">Знакомьтесь - W1ndles! новичок в сфере программирования
+				<div class="info__card">
+					<header class="info__card__header">
+						<h3 class="info__card__title">Программирование</h3>
+					</header>
+					<div class="info__card__desc">
+						<h4 class="info__card__desc__title">Языки</h4>
+						<ul class="info__card__list">
+							<li>HTML5</li>
+							<li>C++</li>
+						</ul>
+					</div>
+					<div class="info__card__desc">
+						<h4 class="info__card__desc__title">Геймдев</h4>
+						<ul class="info__card__list">
+							<li>Clickteam fusion 2.5</li>
+							<li>Unreal Engine 5</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<main class="main">
+		<section class="section">
+			<header class="section__header">
+				<h2>Проекты</h2>
+			</header>
+			<p class="section__info"> Это проекты, над которыми я работал и работаю сейчас.
+				<div class="info__card">
+					<header class="info__card__header">
+						<h3 class="info__card__title">Проекты</h3>
+					</header>
+					<div class="info__card__desc">
+						<h4 class="info__card__desc__title">Игры на UE 5 и Clickteam fusion 2.5</h4>
+						<ul class="info__card__list">
+							<li>Project "S" - это игра, которую я веду разработку прямо сейчас.</li>
+							<li>Cars Corner - это игра выпущенная в ноябре 2023 г., которая дала неплохой старт в развитии геймдев индустрии.</li>
+							<li>Night Zombie Fall of the city - это игра выпущенная в декабре 2023 г.. Игра в жанре аркада и выживание, главной целью является отстрелять всех зомби, чтобы выйграть.</li>
+							<li>Happy Burgers - это игра так и не увидела свет, так как проект был утерян и не закончен. Теперь он оффициально "Lost media".</li>
+						</ul>
+					</div>
+				</section>
+				</main>
+				<div>
+					<section class="section">
+						<header class="section_header">
+							<h2> Социальные сети </h2>
+						</header>
+						<p class="section__info"> Мои соц. сети :3</p>
+						<button id="github" class="button">Github</button>
+						<button id="gamejolt" class="button">GameJolt</button>
+					</section>
+				</div>
+	<footer class="main__footer">
+	<p class="main__footer__content">Hello world - W1ndles</p>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/themes.js"></script>
+	<script src="js/quotes.js"></script>
+	<script src="js/popup.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#gallery').click(function(){
+				window.open('gallery.html', '_self');
+			});
+			$('#nc__button').click(function(){
+				call_popup('New Civilization', 'Внимание на аватарку.');
+			});
+			$('#hwi__button').click(function(){
+				window.open('https://imixdev.itch.io/hellwish-inc', '_blank');
+			});
+			$('#vms__button').click(function(){
+				window.open('https://papus-games.itch.io/volume-shortage', '_blank');
+			});
+			$('#discord').click(function(){
+				navigator.clipboard.writeText('molnikas');
+				call_popup('Discord', 'Мой никнейм уже скопирован в ваш буфер обмена.<br>Если этого не произошло, то вот мой никнейм: molnikas');
+			});
+			$('#gamejolt').click(function(){
+				window.open('https://gamejolt.com/@WillG_Games', '_blank');
+			});
+			$('#github').click(function(){
+				window.open('https://github.com/W1ndles', '_blank');
+			});
+			$('#boosty').click(function(){
+				window.open('https://boosty.to/molnikas', '_blank');
+			});
+			$('#snake').click(function(){
+				window.open('snake.html', '_self');
+			});
+			$('#tetris').click(function(){
+				window.open('tetris.html', '_self');
+			});
+		});
+	</script>
+</body>
+</html>
