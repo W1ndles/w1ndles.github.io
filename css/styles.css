@@ -136,7 +136,7 @@ a:hover {
 .info__card__list {
   list-style-type: none;
   letter-spacing: 2px;
-  color: var(--yellow-dark);
+  color: var(--cyan-dark);
 }
 
 .info__card__list li {
@@ -149,7 +149,7 @@ a:hover {
 
 .main__header__title {
   text-align: center;
-  color: var(--yellow);
+  color: var(--cyan);
   text-shadow: 3px 4px 0 #000;
   margin-bottom: 16px;
 }
@@ -177,8 +177,8 @@ a:hover {
   border: 0;
   min-width: 128px;
   height: 32px;
-  background: var(--yellow);
-  color: var(--yellow-dark);
+  background: var(--cyan);
+  color: var(--black-dark);
   box-shadow: 4px 4px 0px var(--black-dark);
   font-weight: bold;
   margin: 0 8px 16px 0;
@@ -201,15 +201,15 @@ a:hover {
 .details__summary {
   width: calc(100% - 16px);
   padding: 8px;
-  background: var(--yellow);
-  color: var(--yellow-dark);
+  background: var(--cyan);
+  color: var(--black-dark);
   font-weight: bold;
   cursor: pointer;
   box-shadow: 4px 4px 0 var(--black-dark);
 }
 
 .details__summary:hover {
-  background: var(--white);
+  background: var(--cyan);
 }
 
 .details__summary__content {
