@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome. I'm W1ndles">
+    <meta name="keywords" content="W1ndles, Moln1kas, MixDev">
+    <meta name="author" content="W1ndles">
+    <title>W1ndles</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__default">
+        <header class="header">
+            <h2 class="logo__tittle">W1ndles</h2>
+            <nav class="navbar">
+                <a href="index.html">Главная</a>
+                <a href="games.html">Игры</a>
+                <a href="moln1kas.html">Moln1kas</a>
+                <a href="about_me.html">О мне</a>
+            </nav>
+        </header>
+        <div class="text">
+            <h2 class="text__h">Добро пожаловать на мой сайт!</h2>
+            <p class="text__p">Знакомьтесь - W1ndles! новичок в сфере программирования.</p>
+            <button id="games" type="button"><span></span>Игры</button>
+            <button id="about_me" type="button"><span></span>Обо мнe</button>
+        </div>
+
+		
+        
+    <script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/themes.js"></script>
+	<script src="js/quotes.js"></script>
+	<script src="js/popup.js"></script>
+	<script type="text/javascript">
+
+			$('#hwi__button').click(function(){
+				window.open('https://imixdev.itch.io/hellwish-inc', '_blank');
+			});
+			$('#vms__button').click(function(){
+				window.open('https://papus-games.itch.io/volume-shortage', '_blank');
+			});
+			$('#github').click(function(){
+				window.open('https://github.com/W1ndles', '_blank');
+			});
+			$('#games').click(function(){
+				window.open('games.html', '_self');
+			});
+            $('#about_me').click(function(){
+				window.open('about_me.html', '_self');
+			});
+	</script>
+</body>
+</html>
