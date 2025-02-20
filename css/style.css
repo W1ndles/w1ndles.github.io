@@ -159,37 +159,6 @@ button:hover {
   border: none;
 }
 
-.button-Wi {
-  width: 200px;
-  padding: 15px 0;
-  text-align: center;
-  margin: 20px 10px;
-  border-radius: 25px;
-  font-weight: bold;
-  border: 2px solid #ff0000;
-  background: transparent;
-  color: #FFF;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
-.span__Wi {
-  background: #ff0000;
-  height: 100%;
-  width: 0%;
-  border-radius: 25px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-  transition: 0.5s;
-}
-.button-Wi:hover span {
-  width: 100%;
-}
-.button-Wi:hover {
-  border: none;
-}
 
 .info__card {
   width: 300px;
@@ -381,49 +350,6 @@ section {
               
 }
 
-.WillG-Games__home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15rem;
-}
-.WillG-Games__home-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: center;
-}
-.WillG-Games__home-content h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  margin-top: 1.5rem;
-  line-height: 1;
-  color: var(--red);
-}
-.WillG-Games__home-content h3 {
-  font-size: 2rem;
-  margin: 1rem 0;
-  color: var(--white);
-}
-.WillG-Games__home-content p {
-  font-size: 1rem;
-  font-weight: bold;
-  line-height: 1.5;
-  color: var(--white);
-}
-.WillG-Games__home-content-img img {
-  width: 32vw;
-  border-radius: 50%;
-  box-shadow: 0 0 25px var(--red);
-  transition: 0.4s ease-in-out;
-}
-.WillG-Games__home-content-img img:hover {
-  box-shadow: 0 0 25px var(--red),
-  0 0 50px var(--red)
-  0 0 100px var(--red);
-  
-}
-
 .W1ndles__home {
   display: flex;
   align-items: center;
@@ -533,26 +459,6 @@ section {
   background-color: var(--blue);
   transform: scale(1.2)translateY(-5px);
   box-shadow: 0 0 25px var(--blue);
-}
-
-.social-icons__WillG-Games-page a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  padding: 1rem;
-  background: transparent;
-  border: 2px solid var(--red);
-  border-radius: 50%;
-  color: var(--red);
-  margin: 3rem 0.5rem;
-  transition: 0.3s ease;
-}
-.social-icons__WillG-Games-page a:hover {
-  color: var(--black-dark);
-  background-color: var(--red);
-  transform: scale(1.2)translateY(-5px);
-  box-shadow: 0 0 25px var(--red);
 }
 
 .heading {
@@ -724,4 +630,77 @@ section {
   font-size: 13px;
   font-weight: 300;
   line-height: 10px;
+}
+
+.sign_in_icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding: 1rem;
+  background: transparent;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  color: var(--blue);
+  margin: 3rem 0.5rem;
+  transition: 0.3s ease;
+}
+.sign_in_icon a:hover {
+  color: var(--black-dark);
+  background-color: var(--blue);
+  transform: scale(1.2)translateY(-5px);
+  box-shadow: 0 0 25px var(--blue);
+}
+
+.main__footer {
+  transform: translateY(880px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue);
+  height: 65px;
+  color: var(--white);
+}
+.main__footer-content p {
+  font-size: 2em;
+  color: var(--white);
+}
+.main__footer-mn {
+  transform: translateY(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue);
+  height: 65px;
+  color: var(--white);
+}
+.main__footer-content-mn p {
+  font-size: 2em;
+  color: var(--white);
+}
+.main__footer-m {
+  transform: translateY(-60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--yellow-dark);
+  height: 65px;
+  color: var(--yellow);
+}
+.main__footer-content-m p {
+  font-size: 2em;
+  color: var(--white);
+}
+.main__footer-g {
+  transform: translateY(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue);
+  height: 65px;
+  color: var(--white);
+}
+.main__footer-content-g p {
+  font-size: 2em;
+  color: var(--white);
 }
