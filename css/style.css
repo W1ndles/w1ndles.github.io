@@ -1,5 +1,3 @@
-@import url(https://fonts.google.com/share?selection.family=Geist+Mono:wght@100..900);
-
 :root {
     --black-dark: #000;
     --black: #2c2c2c;
@@ -15,6 +13,7 @@
   
     --blue-dark: #0c0335;
     --blue: #007eff;
+    --blue-gray : #1065bb;
   
     --purple-dark: #AA00AA;
     --purple: #FF55FF;
@@ -27,7 +26,7 @@
   }
 
   body {
-    font-family: 'GeistMono-VariableFont_wght', sans-serif;
+    font-family: "JetBrains Mono", monospace;
   }
 
   * {
@@ -38,7 +37,6 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'GeistMono-VariableFont_wght', sans-serif;
   }
 
   a {
@@ -56,10 +54,6 @@
     color: var(--cyan-dark)
   }
 
-  .page__WillG-Games {
-    background-color: var(--black-dark);
-    color: var(--cyan-dark)
-  }
 
   .header {
     position: fixed;
@@ -653,54 +647,85 @@ section {
 }
 
 .main__footer {
-  transform: translateY(880px);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 64px;
   background: var(--blue);
-  height: 65px;
-  color: var(--white);
-}
-.main__footer-content p {
-  font-size: 2em;
-  color: var(--white);
-}
-.main__footer-mn {
-  transform: translateY(10px);
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+.main__footer-content {
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+
+.modal {
+  position: fixed;
+  width: 50%;
   background: var(--blue);
-  height: 65px;
-  color: var(--white);
+  z-index: 999;
+  box-shadow: 8px 8px 0 var(--black-dark);
 }
-.main__footer-content-mn p {
-  font-size: 2em;
-  color: var(--white);
-}
-.main__footer-m {
-  transform: translateY(-60px);
+
+.modal__close__container {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--yellow-dark);
-  height: 65px;
-  color: var(--yellow);
+  justify-content: flex-end;
 }
-.main__footer-content-m p {
-  font-size: 2em;
+
+.modal__button__base {
+  border: none;
+  background: var(--black-dark);
   color: var(--white);
+  font-weight: bold;
+  min-width: 96px;
+  padding: 0 8px;
 }
-.main__footer-g {
-  transform: translateY(10px);
+
+.modal__button {
+  height: 28px;
+  margin: 0 16px 8px 0;
+}
+
+.modal__button__base:hover {
+  cursor: pointer;
+  background: var(--white);
+  color: var(--black-dark);
+}
+
+.modal__header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--blue);
-  height: 65px;
-  color: var(--white);
+  margin: 8px;
+  padding: 4px;
+  border: thick dotted var(--black-dark);
 }
-.main__footer-content-g p {
-  font-size: 2em;
+
+.modal__header__title {
+  width: 100%;
+}
+
+.modal__content {
+  margin: 8px;
+  padding: 4px;
+  border: thick dotted var(--black-dark);
+}
+
+.modal__content__p {
+  margin-bottom: 8px;
+}
+
+.header__navbar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  border-style: groove;
+  z-index: auto;
+  background: var(--blue-gray);
+}
+.header__navbar-content {
+  margin: 10px;
   color: var(--white);
 }
