@@ -200,7 +200,7 @@ button:hover {
 }
 .package__card {
   background-color: var(--blue);
-  height: 400px auto;
+  height: 400px;
   width: 400px;
   border-radius: 3rem;
   cursor: pointer;
@@ -805,4 +805,5 @@ section {
   margin: 10px;
   color: var(--white);
 }
+
 
