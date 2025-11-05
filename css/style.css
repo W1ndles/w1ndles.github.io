@@ -106,6 +106,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -177,7 +178,9 @@ button:hover {
 
 
 
-
+.container__page {
+  min-height: 800px;
+}
 .container__package {
   min-height: 800px;
   display: flex;
@@ -273,6 +276,51 @@ h2 {
   font-size: 1.5em;
 }
 
+
+
+
+
+.container__friends {
+  margin-top: 5em;
+  padding: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: grid;
+  gap: 14px;
+  min-height: 800px auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.container__friends__list {
+  background-color: var(--blue);
+  border: solid 5px transparent;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  padding: 14px;
+  width: 700px auto;
+  height: 300px;
+  color: var(--white);
+}
+.friends__list__content {
+  justify-content: center;
+  align-items: flex-start;
+  padding: 14px;
+  font-size: 18px;
+}
+.container__friends__list:hover {
+  transform: scale(1.01);
+  background-color: var(--black);
+  color: var(--white);
+  border: solid 3px var(--blue);
+}
+.friends__list__content img {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
 .info__card__left {
   width: 300px;
   height: 200px;
@@ -805,5 +853,6 @@ section {
   margin: 10px;
   color: var(--white);
 }
+
 
 
