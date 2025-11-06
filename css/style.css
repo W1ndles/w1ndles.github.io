@@ -281,7 +281,7 @@ h2 {
 
 
 .container__friends {
-  margin-top: 5em;
+  margin-top: 12em;
   padding: 12px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   display: grid;
@@ -299,8 +299,8 @@ h2 {
   transition: 0.4s ease-in-out;
   display: flex;
   padding: 14px;
-  width: 700px auto;
-  height: 300px;
+  width: 400px auto;
+  height: 300px auto;
   color: var(--white);
 }
 .friends__list__content {
@@ -853,6 +853,7 @@ section {
   margin: 10px;
   color: var(--white);
 }
+
 
 
 
