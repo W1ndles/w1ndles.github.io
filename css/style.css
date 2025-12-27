@@ -451,6 +451,10 @@ li {
   padding: 2em;
   align-items: center;
 }
+section {
+    min-height: 100vh;
+    padding: 6em;
+}
 .moln1kas__home {
   display: flex;
   align-items: center;
@@ -889,6 +893,7 @@ li {
   margin: 10px;
   color: var(--white);
 }
+
 
 
 
