@@ -127,12 +127,13 @@
 
 .text {
   color:#FFF;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   text-align: center;
+  margin-top: 22em;
 }
 
 .text__h {
@@ -452,8 +453,8 @@ li {
   align-items: center;
 }
 section {
-    min-height: 100vh;
-    padding: 6em;
+  min-height: 100vh;
+  padding: 6em;
 }
 .moln1kas__home {
   display: flex;
@@ -893,8 +894,4 @@ section {
   margin: 10px;
   color: var(--white);
 }
-
-
-
-
 
