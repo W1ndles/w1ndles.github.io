@@ -18,7 +18,8 @@ if (np__create_key1) {
 };
 
 if (np__create_key2) {
-    np__create_name_key2.textContent = 'Обнорвление';
+    np__create_name_key2.textContent = 'Обновление';
     np__create_key2.appendChild(np__create_name_key2);
 };
+
 
