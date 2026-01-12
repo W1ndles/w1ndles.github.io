@@ -326,7 +326,6 @@ h2 {
   display: flex;
   padding: 14px;
   width: 400px auto;
-  min-width: 220px auto;
   height: 300px auto;
   color: var(--white);
 }
@@ -335,6 +334,7 @@ h2 {
   align-items: flex-start;
   padding: 14px;
   font-size: 18px;
+
 }
 .container__friends__list:hover {
   transform: scale(1.01);
@@ -343,7 +343,7 @@ h2 {
   border: solid 3px var(--blue);
 }
 .friends__list__content img {  
-  display: grid;
+  display: flex;
   width: 200px;
   height: 200px;
   border-radius: 25px;
@@ -563,6 +563,26 @@ section {
   display: grid;
   margin: 2em;
 }
+.container__block_summary_alt {
+  background-color: var(--white);
+  color: var(--blue);
+  border-radius: 2rem;
+  width: 600px;
+  flex-wrap: wrap;
+  height: 130px;
+  cursor: pointer;
+  border: solid 5px transparent;
+  transition: 0.2s ease-in-out;
+  display: grid;
+  margin: 2em;
+}
+.container__block_summary_alt:hover {
+  background-color: var(--black);
+  transform: scale(1.01);
+  border: solid 3px var(--white);
+  color: var(--white);
+}
+
 .summary__content {
   font-size: 1rem;
   justify-content: center;
@@ -894,4 +914,3 @@ section {
   margin: 10px;
   color: var(--white);
 }
-
