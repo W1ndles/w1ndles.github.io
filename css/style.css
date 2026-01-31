@@ -307,7 +307,7 @@ h2 {
 
 
 .container__friends {
-  margin-top: 10em;
+  margin-top: 6em;
   padding: 12px;
   display: grid;
   gap: 14px;
@@ -325,7 +325,7 @@ h2 {
   transition: 0.4s ease-in-out;
   display: flex;
   padding: 14px;
-  width: 800px;
+  width: 600px;
   height: 160px auto;
   color: var(--white);
 }
@@ -914,3 +914,4 @@ section {
   margin: 10px;
   color: var(--white);
 }
+
