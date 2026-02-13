@@ -66,6 +66,8 @@
     align-items: center;
     z-index: 99;
   }
+
+
   .header__sachsen {
     position: fixed;
     top: 0;
@@ -118,7 +120,7 @@
     background: var(--blue);
     border-radius: 5px;
     transform: scaleX(0);
-    transition: transform .2s;
+    transition: transform 0.2s;
   }
 
   .navbar a:hover::after {
@@ -310,6 +312,9 @@ h2 {
   margin-top: 6em;
   padding: 12px;
   display: grid;
+  grid-template-columns: 600px 1fr;
+  top: 0;
+  margin-left: 20em;
   gap: 14px;
   min-height: 800px auto;
   justify-content: center;
@@ -914,4 +919,3 @@ section {
   margin: 10px;
   color: var(--white);
 }
-
